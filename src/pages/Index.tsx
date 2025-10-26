@@ -138,7 +138,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <Badge className="mb-4 bg-gradient-to-r from-primary to-secondary text-white border-0">
-                40 лет опыта в юриспруденции
+                50 лет опыта в юриспруденции
               </Badge>
               <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
                 Превратите свою юридическую практику в{' '}
@@ -149,16 +149,7 @@ const Index = () => {
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                 Уникальная методика от Ольги Зиновьевны, которая объединяет право, психологию и духовность для трансформации вашей карьеры и жизни
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-gradient-to-r from-primary via-secondary to-accent hover:opacity-90 text-lg h-14">
-                  <Icon name="Sparkles" size={20} className="mr-2" />
-                  Начать трансформацию
-                </Button>
-                <Button size="lg" variant="outline" className="text-lg h-14 border-2">
-                  <Icon name="PlayCircle" size={20} className="mr-2" />
-                  Смотреть видео
-                </Button>
-              </div>
+
             </div>
             <div className="animate-scale-in">
               <img 
@@ -245,13 +236,13 @@ const Index = () => {
                 Об авторе курса
               </h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                <strong className="text-foreground">Ольга Зиновьевна</strong> — практикующий юрист с 40-летним стажем, трансформационный коуч и создатель уникальной методики "Магия Закона".
+                <strong className="text-foreground">Ольга Зиновьевна</strong> — практикующий юрист с 50-летним стажем, трансформационный коуч и создатель уникальной методики "Магия Закона".
               </p>
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 Пройдя путь от адвоката до "Волшебницы О3", она создала систему, которая помогает юристам не просто зарабатывать больше, но и обрести гармонию, уверенность и радость от профессии.
               </p>
               <div className="flex flex-wrap gap-3">
-                <Badge variant="secondary" className="text-base py-2 px-4">40 лет практики</Badge>
+                <Badge variant="secondary" className="text-base py-2 px-4">50 лет практики</Badge>
                 <Badge variant="secondary" className="text-base py-2 px-4">500+ учеников</Badge>
                 <Badge variant="secondary" className="text-base py-2 px-4">Трансформационный коуч</Badge>
               </div>
